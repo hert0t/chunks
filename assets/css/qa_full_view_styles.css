@@ -1,6 +1,6 @@
     @font-face{
         font-family: Open Sans;
-        src: url('https://raw.githubusercontent.com/hert0t/asset/main/NeueHaasGrotText-55Roman-App.ttf')
+        src: url('https://cdn.jsdelivr.net/gh/hert0t/chunks@master/assets/fonts/NeueHaasGrotText-55Roman-App.ttf')
     }
     body{
         font-family:Open Sans, Courier, monospace;
