@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$("#btnspin").click(function() {
-		$(this).prop("disabled", true);
+	$("#btnspin").on( "click", function( event ) {
+		event.preventDefault();
 		$(this).html(
 		`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>`
 		);
