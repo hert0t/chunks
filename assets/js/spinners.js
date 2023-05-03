@@ -1,10 +1,9 @@
 $(document).ready(function() {
-	$("#btnspin").on( "click", function( event ) {
+	$("#form").on( "submit", function( event ) {
 		event.preventDefault();
-		$(this).html(
+		$("#btnspin").html(
 		`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>`
 		);
-		$("#form").submit();
 		});
 	});
 		
